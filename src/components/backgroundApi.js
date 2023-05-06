@@ -1,8 +1,8 @@
 import axios from "axios";
-require("dotenv").config();
-const IMG_KEY = process.env.IMG_KEY;
+const IMG_KEY = process.env.REACT_APP_IMG_KEY;
+
 const searchImages = async (term) => {
-  const response = await axios.get("https://api.unsplash.com//search/photos", {
+  const response = await axios.get("https://api.unsplash.com/search/photos", {
     headers: {
       Authorization: IMG_KEY,
     },
