@@ -7,6 +7,5 @@ const SearchWeather = async (city) => {
   );
   return weather.data;
 };
-console.log(process.env.API_KEY);
 
 export default SearchWeather;
