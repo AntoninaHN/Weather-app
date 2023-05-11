@@ -27,7 +27,7 @@ const WeatherList = ({ cities }) => {
       setTime(
         moment()
           .utcOffset(timezone / 60)
-          .format("DD.MM HH:mm:ss")
+          .format("DD.MM HH:mm")
       );
     }, 1000);
 
