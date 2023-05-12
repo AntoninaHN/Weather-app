@@ -1,21 +1,28 @@
 .title {
   padding: 50px 0 20px 50px;
   margin-left: 50px;
+  margin-bottom: 50px;
   font-family: "Anuphan";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 34px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   text-align: center;
   color: #fff;
 }
 .clock {
-  display: flex;
+  font-family: "Anuphan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  /* display: flex; */
   align-items: center;
   text-align: center;
   font-family: "Anuphan";
+  margin-bottom: 50px;
   color: #fff;
   /* padding: 50px 0 20px 50px; */
   margin-left: 100px;
@@ -40,12 +47,12 @@
 .weather-item {
   display: flex;
   width: 40%;
-  columns: 6 200px;
+  /* columns: 6 100px; */
   column-gap: 10px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  padding: 70px;
-  column-gap: 10px;
+  padding: 50px;
+
   margin: 30px;
   color: white;
 }

@@ -41,23 +41,23 @@ const WeatherList = ({ cities }) => {
       <ul className="weather-list">
         <li className="weather-item">
           {" "}
-          Temperature: {Math.floor(cities.main.temp)} °C
+          Temperature {Math.floor(cities.main.temp)} °C
         </li>
         <li className="weather-item">
           {" "}
-          Feels like: {Math.floor(cities.main.feels_like)} °C{" "}
+          Feels like {Math.floor(cities.main.feels_like)} °C{" "}
         </li>
         <li className="weather-item">
           {" "}
-          Wind: {Math.floor(cities.wind.speed)} km/h
+          Wind {Math.floor(cities.wind.speed)} km/h
         </li>
 
         <li className="weather-item">
-          Sunrise: {convertTime(cities.sys.sunrise, cities.timezone)} h
+          Sunrise at {convertTime(cities.sys.sunrise, cities.timezone)}
         </li>
         <li className="weather-item">
           {" "}
-          Sunset: {convertTime(cities.sys.sunset, cities.timezone)} h
+          Sunset at {convertTime(cities.sys.sunset, cities.timezone)}
         </li>
         <li className="weather-item">
           <WeatherShow key={cities.weather.id} cities={cities} />
