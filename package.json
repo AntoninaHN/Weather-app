@@ -24,7 +24,6 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start:backend": "env-cmd -f .env.local nodemon backend-index.js",
     "start:frontend": "react-scripts start",
     "build": " react-scripts build",
     "test": "react-scripts test",
